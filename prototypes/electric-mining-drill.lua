@@ -911,3 +911,6 @@ mining_drill.wet_mining_graphics_set = {
 
 mining_drill.circuit_wire_connection_points = circuit_connectors.points
 mining_drill.circuit_connector_sprites = circuit_connectors.sprites
+
+-- Hide the integration patch
+mining_drill.integration_patch = util.empty_sprite()
