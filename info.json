@@ -5,7 +5,7 @@
   "title": "Classic Mining Drill",
   "author": "Kirazy",
   "contact": "kirazy@live.com",
-  "description": "Replaces the new mining drill from 0.18.31 with the classic mining drill.",
+  "description": "Restores the classic mining drill.",
   "dependencies":
   [
     "base >= 1.0.0"
