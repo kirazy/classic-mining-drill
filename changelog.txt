@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.08.28
+  Features:
+    - Moved to Factorio 1.0
+    - Restores the classic technology icons for mining producitivy
+  Bugfixes:
+    - Fixed that several variables were declared globally instead of locally
+---------------------------------------------------------------------------------------------------
 Version: 0.18.2
 Date: 2020.06.18
   Changes:

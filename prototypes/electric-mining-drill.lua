@@ -1,6 +1,6 @@
 -- Copyright (c) 2020 Kirazy
 -- Part of Classic Mining Drill
---     
+--
 -- See LICENSE.md in the project directory for license information.
 
 ----------------------------------------------------------------------------------------------------
@@ -818,14 +818,22 @@ local circuit_connectors = circuit_connector_definitions.create(universal_connec
 -- Restore the mining drill
 ----------------------------------------------------------------------------------------------------
 
+-- Technology icons
+for n = 1, 4 do
+    local mining_drill_technology = data.raw["technology"]["mining-productivity-"..n]
+    mining_drill_technology.icon = "__classic-mining-drill__/graphics/technology/mining-productivity.png"
+    mining_drill_technology.icon_size = 128
+    mining_drill_technology.icon_mipmaps = nil
+end
+
 -- Item icon
-mining_drill_item = data.raw["item"]["electric-mining-drill"]
+local mining_drill_item = data.raw["item"]["electric-mining-drill"]
 mining_drill_item.icon = "__classic-mining-drill__/graphics/icon/electric-mining-drill.png"
 mining_drill_item.icon_size = 64
 mining_drill_item.icon_mipmaps = 4
 
 -- Entity
-mining_drill = data.raw["mining-drill"]["electric-mining-drill"]
+local mining_drill = data.raw["mining-drill"]["electric-mining-drill"]
 mining_drill.icon = "__classic-mining-drill__/graphics/icon/electric-mining-drill.png"
 mining_drill.icon_size = 64
 mining_drill.icon_mipmaps = 4

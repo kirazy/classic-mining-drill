@@ -1,13 +1,13 @@
 {
   "name": "classic-mining-drill",
-  "version": "0.18.2",
-  "factorio_version": "0.18",
+  "version": "1.0.0",
+  "factorio_version": "1.0",
   "title": "Classic Mining Drill",
   "author": "Kirazy",
   "contact": "kirazy@live.com",
   "description": "Replaces the new mining drill from 0.18.31 with the classic mining drill.",
-  "dependencies": 
-  [	
-    "base >= 0.18.31"
+  "dependencies":
+  [
+    "base >= 1.0.0"
   ]
 }
