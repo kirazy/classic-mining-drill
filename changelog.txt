@@ -3,6 +3,7 @@ Version: 1.1.0
 Date: 2020.11.24
   Features:
     - Moved to Factorio 1.1
+    - Updated technology icon and mining productivity bonus icons to use new features in 1.1
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2020.08.28

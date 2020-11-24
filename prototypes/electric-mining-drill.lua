@@ -821,9 +821,19 @@ local circuit_connectors = circuit_connector_definitions.create(universal_connec
 -- Technology icons
 for n = 1, 4 do
     local mining_drill_technology = data.raw["technology"]["mining-productivity-"..n]
-    mining_drill_technology.icon = "__classic-mining-drill__/graphics/technology/mining-productivity.png"
-    mining_drill_technology.icon_size = 128
-    mining_drill_technology.icon_mipmaps = nil
+    mining_drill_technology.icons = {
+        {
+            icon = "__classic-mining-drill__/graphics/technology/mining-productivity.png",
+            icon_size = 128, icon_mipmaps = 1,
+            scale = 2,
+        },
+        {
+            icon = "__core__/graphics/icons/technology/constants/constant-mining-productivity.png",
+            icon_size = 128,
+            icon_mipmaps = 3,
+            shift = {100, 100}
+        }
+    }
 end
 
 -- Item icon
@@ -838,6 +848,17 @@ mining_drill.icon = "__classic-mining-drill__/graphics/icon/electric-mining-dril
 mining_drill.icon_size = 64
 mining_drill.icon_mipmaps = 4
 mining_drill.corpse = "medium-remnants"
+
+-- Mining Productivity Icon
+data.raw["utility-sprites"]["default"].mining_drill_productivity_bonus_modifier_icon = {
+    filename = "__classic-mining-drill__/graphics/icon/electric-mining-drill.png",
+    priority = "extra-high-no-scale",
+    width = 64,
+    height = 64,
+    mipmap_count = 4,
+    generate_sdf = true,
+    flags = {"icon"}
+}
 
 mining_drill.working_sound.sound.filename = "__classic-mining-drill__/sound/electric-mining-drill.ogg"
 
