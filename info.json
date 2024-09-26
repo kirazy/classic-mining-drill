@@ -8,6 +8,7 @@
   "description": "Restores the classic mining drill.",
   "dependencies":
   [
-    "base"
+    "base",
+    "? space-age"
   ]
 }
