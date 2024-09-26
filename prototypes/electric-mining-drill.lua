@@ -482,19 +482,16 @@ for n = 1, 4 do
             shift = {100, 100}
         }
     }
-end
 
 -- Item icon
 local mining_drill_item = data.raw["item"]["electric-mining-drill"]
 mining_drill_item.icon = "__classic-mining-drill__/graphics/icon/electric-mining-drill.png"
 mining_drill_item.icon_size = 64
-mining_drill_item.icon_mipmaps = 4
 
 -- Entity
 local mining_drill = data.raw["mining-drill"]["electric-mining-drill"]
 mining_drill.icon = "__classic-mining-drill__/graphics/icon/electric-mining-drill.png"
 mining_drill.icon_size = 64
-mining_drill.icon_mipmaps = 4
 mining_drill.corpse = "medium-remnants"
 
 -- Mining Productivity Icon
