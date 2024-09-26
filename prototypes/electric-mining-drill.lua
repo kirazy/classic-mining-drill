@@ -454,7 +454,8 @@ local input_fluid_patch_fluid_base_sprites = {
 }
 
 -- Circuit connection points
-local circuit_connectors = circuit_connector_definitions.create(universal_connector_template, {
+---@type data.CircuitConnectorDefinition[]
+local circuit_connectors = circuit_connector_definitions.create_vector(universal_connector_template, {
     { variation = 4, main_offset = util.by_pixel(-3.5, -55.5), shadow_offset = util.by_pixel(-2, -44.5), show_shadow = true },
     { variation = 2, main_offset = util.by_pixel(42, -12.5), shadow_offset = util.by_pixel(43.5, -0.5), show_shadow = true },
     { variation = 0, main_offset = util.by_pixel(4.5, 33), shadow_offset = util.by_pixel(8.5, 44.5), show_shadow = true },
@@ -585,8 +586,7 @@ mining_drill.wet_mining_graphics_set = {
     }
 }
 
-mining_drill.circuit_wire_connection_points = circuit_connectors.points
-mining_drill.circuit_connector_sprites = circuit_connectors.sprites
+mining_drill.circuit_connector = circuit_connectors
 
 -- Hide the integration patch
 mining_drill.integration_patch = util.empty_sprite()
