@@ -9,6 +9,7 @@
   "dependencies":
   [
     "base",
-    "? space-age"
+    "? space-age",
+    "(?) bobmining"
   ]
 }

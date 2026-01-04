@@ -1,7 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: ????
-  Changes:
+  Bugfixes:
+    - Resolved issue where this mod would cause startup to fail when paired with Bob's Mining
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2024-10-22
@@ -18,7 +19,7 @@ Version: 1.0.0
 Date: 2020.08.28
   Features:
     - Moved to Factorio 1.0
-    - Restores the classic technology icons for Mining Producitivy
+    - Restores the classic technology icons for Mining Productivity
   Bugfixes:
     - Fixed that several variables were declared globally instead of locally
 ---------------------------------------------------------------------------------------------------
