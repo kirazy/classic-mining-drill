@@ -15,13 +15,13 @@ Date: 2024-10-22
     - Supports Factorio: Space Age!
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
-Date: 2020.11.24
+Date: 2020-11-24
   Features:
     - Moved to Factorio 1.1
     - Updated technology icon and mining productivity bonus icons to use new features in 1.1
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 2020.08.28
+Date: 2020-08-28
   Features:
     - Moved to Factorio 1.0
     - Restores the classic technology icons for Mining Productivity
@@ -29,11 +29,11 @@ Date: 2020.08.28
     - Fixed that several variables were declared globally instead of locally
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: 2020.06.18
+Date: 2020-06-18
   Changes:
     - Disable the mining-drill integration patch added by 0.18.32
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
-Date: 2020.06.13
+Date: 2020-06-13
   Features:
     - Initial release
