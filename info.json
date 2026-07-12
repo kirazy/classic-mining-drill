@@ -1,15 +1,17 @@
 {
   "name": "classic-mining-drill",
-  "version": "1.2.2",
-  "factorio_version": "2.0",
+  "version": "2.1.0",
+  "factorio_version": "2.1",
   "title": "Classic Mining Drill",
   "author": "Kirazy",
   "contact": "kirazy@live.com",
   "description": "Restores the classic mining drill.",
-  "dependencies":
-  [
+  "dependencies": [
     "base",
     "? space-age",
     "(?) bobmining"
-  ]
+  ],
+  "package": {
+    "git_publish_branch": "dev2.1"
+  }
 }
