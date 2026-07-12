@@ -1,18 +1,18 @@
 {
-  "name": "classic-mining-drill",
-  "version": "2.1.0",
-  "factorio_version": "2.1",
-  "title": "Classic Mining Drill",
-  "author": "Kirazy",
-  "contact": "https://discord.gg/qAvSyzZFPr",
-  "homepage": "https://github.com/kirazy/classic-mining-drill",
-  "description": "Restores the classic mining drill.",
-  "dependencies": [
-    "base",
-    "? space-age",
-    "(?) bobmining"
-  ],
-  "package": {
-    "git_publish_branch": "dev2.1"
-  }
+	"name": "classic-mining-drill",
+	"version": "2.1.0",
+	"factorio_version": "2.1",
+	"title": "Classic Mining Drill",
+	"author": "Kirazy",
+	"contact": "https://discord.gg/qAvSyzZFPr",
+	"homepage": "https://github.com/kirazy/classic-mining-drill",
+	"description": "Restores the classic mining drill.",
+	"dependencies": [
+		"base",
+		"? space-age",
+		"(?) bobmining"
+	],
+	"package": {
+		"git_publish_branch": "dev2.1"
+	}
 }
