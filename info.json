@@ -4,7 +4,8 @@
   "factorio_version": "2.1",
   "title": "Classic Mining Drill",
   "author": "Kirazy",
-  "contact": "kirazy@live.com",
+  "contact": "https://discord.gg/qAvSyzZFPr",
+  "homepage": "https://github.com/kirazy/classic-mining-drill",
   "description": "Restores the classic mining drill.",
   "dependencies": [
     "base",
